@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading{
+  color: black;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 35px;
+}
+.green{
+background-color:skyblue;
+height:55px;
+width: 80%;
+ 
+}
+.head{
+   color: black;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 35px;  
+  
+}
+.icon{
+    width: 10px;
+    height: 10px;
+}
+ 
+.card {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  padding-top: 12px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+.notifications-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+  margin-top:20px ;
+
+}
+.primary-bg-color {
+  background-color: #0b69ff;
+}
+
+.success-bg-color {
+  background-color: #2dca73;
+}
+
+.warning-bg-color {
+  background-color: #ffb800;
+}
+
+.danger-bg-color {
+  background-color: #ff0b37;
+}
+
+.message {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
